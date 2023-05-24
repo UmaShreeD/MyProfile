@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="MyProfileAppModule"
+  Version="12.1.3.10.47"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true">
+  <ViewUsage
+    Name="BooksView"
+    ViewObjectName="model.vo.BooksView"/>
+  <ViewUsage
+    Name="CarsView"
+    ViewObjectName="model.vo.CarsView"/>
+  <ViewUsage
+    Name="EmployeesView"
+    ViewObjectName="model.vo.EmployeesView"/>
+  <ViewUsage
+    Name="ExpensesView"
+    ViewObjectName="model.vo.ExpensesView"/>
+  <ViewUsage
+    Name="FodTaskView"
+    ViewObjectName="model.vo.FodTaskView"/>
+  <ViewUsage
+    Name="HundredDaysDayStatusView"
+    ViewObjectName="model.vo.HundredDaysDayStatusView"/>
+  <ViewUsage
+    Name="HundredMorningStatusView"
+    ViewObjectName="model.vo.HundredMorningStatusView"/>
+  <ViewUsage
+    Name="InterviewView"
+    ViewObjectName="model.vo.InterviewView"/>
+  <ViewUsage
+    Name="LoanView"
+    ViewObjectName="model.vo.LoanView"/>
+  <ViewUsage
+    Name="LookupbaseView"
+    ViewObjectName="model.vo.LookupbaseView"/>
+  <ViewUsage
+    Name="OfferLetterView"
+    ViewObjectName="model.vo.OfferLetterView"/>
+  <ViewUsage
+    Name="OfficeView"
+    ViewObjectName="model.vo.OfficeView"/>
+  <ViewUsage
+    Name="PayslipView"
+    ViewObjectName="model.vo.PayslipView"/>
+  <ViewUsage
+    Name="PsTxnView"
+    ViewObjectName="model.vo.PsTxnView"/>
+  <ViewUsage
+    Name="RentalView"
+    ViewObjectName="model.vo.RentalView"/>
+  <ViewUsage
+    Name="ResumeView"
+    ViewObjectName="model.vo.ResumeView"/>
+  <ViewUsage
+    Name="SprintView"
+    ViewObjectName="model.vo.SprintView"/>
+</AppModule>
