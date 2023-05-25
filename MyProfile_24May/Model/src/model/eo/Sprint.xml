@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="Sprint"
+  Version="12.1.3.10.47"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="SPRINT"
+  AliasName="Sprint"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="Sprint"
+    Precision="9"
+    ColumnName="SPRINT"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="SPRINT"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="9"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="Adfdevelopername"
+    IsNotNull="true"
+    Precision="17"
+    ColumnName="ADFDEVELOPERNAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="SPRINT"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="17"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="Status"
+    Precision="10"
+    ColumnName="STATUS"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="SPRINT"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="10"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="DateTime"
+    Precision="19"
+    ColumnName="DATE_TIME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="SPRINT"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="19"/>
+    </DesignTime>
+  </Attribute>
+  <Key
+    Name="SprintPrimaryKey"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="SPRINT_PRIMARY_KEY"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.eo.Sprint.Sprint"/>
+      <Item Value="model.eo.Sprint.Adfdevelopername"/>
+      <Item Value="model.eo.Sprint.Status"/>
+      <Item Value="model.eo.Sprint.DateTime"/>
+    </AttrArray>
+  </Key>
+</Entity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="OfferLetter"
+  Version="12.1.3.10.47"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="OFFER_LETTER"
+  AliasName="OfferLetter"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="Adfdevelopername"
+    IsNotNull="true"
+    Precision="30"
+    ColumnName="ADFDEVELOPERNAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="30"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="CompanyName"
+    Precision="50"
+    ColumnName="COMPANY_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="50"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="Offerletter"
+    Precision="200"
+    ColumnName="OFFERLETTER"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ExperienceOrRelievingLetter"
+    Precision="200"
+    ColumnName="EXPERIENCE_OR_RELIEVING_LETTER"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="200"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="DateOfJoining"
+    Precision="10"
+    ColumnName="DATE_OF_JOINING"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="10"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="DateOfRelieving"
+    Precision="10"
+    ColumnName="DATE_OF_RELIEVING"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="OFFER_LETTER"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="10"/>
+    </DesignTime>
+  </Attribute>
+  <Key
+    Name="OfferletterPrimaryKey"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="OFFERLETTER_PRIMARY_KEY"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.eo.OfferLetter.Adfdevelopername"/>
+      <Item Value="model.eo.OfferLetter.CompanyName"/>
+      <Item Value="model.eo.OfferLetter.Offerletter"/>
+      <Item Value="model.eo.OfferLetter.ExperienceOrRelievingLetter"/>
+      <Item Value="model.eo.OfferLetter.DateOfJoining"/>
+      <Item Value="model.eo.OfferLetter.DateOfRelieving"/>
+    </AttrArray>
+  </Key>
+</Entity>
